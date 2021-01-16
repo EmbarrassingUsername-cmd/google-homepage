@@ -1,0 +1,121 @@
+
+#search-section{
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30em;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center
+}
+#search-container{
+    width: 90%;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#search-container:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+#mag-glass{
+    height: 20px;
+    width: 20px;
+    background-color:;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.search-bar{
+    width: 100%;
+    font: 16px arial,sans-serif;
+    border: none;
+    padding:5px;
+    flex-shrink: 1;
+    margin-right: 10px;
+}
+#mic{
+    height: 20px;
+    width: 20px;
+    background-color: ;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+.search-bar:focus{
+    outline:none
+}
+.logo{
+    flex-grow: 0;
+    max-width: 272px; 
+}
+
+header{
+    display:flex;
+    align-items: center;
+    width:100%;
+}
+.head-link{
+    color: #000;
+    opacity: 75%;
+    text-decoration:none; 
+    padding-left: 15px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+.head-link:hover{
+    text-decoration: underline;
+}
+#sign-in{
+    background-color: #4285f4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin-left: 15px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#location-cont, #foot-link-cont{
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    height:40px;
+    text-decoration: none; 
+    display: flex;
+    align-items: center
+}
+.foot-link, #location{
+    color: rgba(0,0,0,.54);
+    text-decoration: none; 
+    padding-left: 15px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+.foot-link:hover{
+    text-decoration: underline;
+}
+#gmail{
+    margin-left:auto;
+}
+#location-cont{
+    display: flex;
+    align-items: center;
+    height:40px;
+}
+#location{
+    padding-left: 15px;
+    border: none;
+    height: 15px;
+}
+#carbon-neutral{
+    margin-left
+}
