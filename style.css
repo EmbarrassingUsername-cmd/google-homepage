@@ -18,7 +18,12 @@ header{
 }
 #app-logo{
 position:relative;
-
+height: 20px;
+width: 20px;
+opacity: 50%;
+}
+#app-logo:hover{
+    opacity:100%;
 }
 #sign-in{
     background-color: #4285f4;
@@ -45,7 +50,7 @@ position:relative;
     max-width: 272px;
 } 
 #search-container{
-    width: 90%;
+    width: 75%;
     height: 46px;
     border: 1px solid #dfe1e5;
     border-radius: 30px;
